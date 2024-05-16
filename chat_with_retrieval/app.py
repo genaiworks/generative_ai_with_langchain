@@ -14,8 +14,8 @@ from chat_with_retrieval.utils import MEMORY, DocumentLoader
 logging.basicConfig(encoding="utf-8", level=logging.INFO)
 LOGGER = logging.getLogger()
 
-st.set_page_config(page_title="LangChain: Chat with Documents", page_icon="🦜")
-st.title("🦜 LangChain: Chat with Documents")
+st.set_page_config(page_title="LangChain: Chat with Documents", page_icon="")
+st.title(" LangChain: Chat with Documents")
 
 
 uploaded_files = st.sidebar.file_uploader(
